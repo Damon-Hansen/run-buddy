@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+        font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* apply style to h1 */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* apply color to header link */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* Apply style to nav links */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* override parent style to look horizontal */
+header nav ul li {
+    display: inline;
+}
+
+/* apply style to specific links in header */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+
+
