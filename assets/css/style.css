@@ -43,16 +43,20 @@ header nav {
     margin: 7px 0;
 }
 
-/* override parent style to look horizontal */
-header nav ul li {
-    display: inline;
+/* Applying Flex Style to header */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* apply style to specific links in header */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* apply style to footer*/
