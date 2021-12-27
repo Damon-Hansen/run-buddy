@@ -64,11 +64,13 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* style to h2 */
 footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -77,7 +79,6 @@ footer h2 {
 
 /* style to div brackets in footer*/
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
     font-size: 20px;
